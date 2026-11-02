@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basalphy | Hospital decision support</title>
+<meta name="description" content="Basalphy learns what is normal for each patient and shows nurses and doctors what has changed. Concept-stage project.">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&amp;family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+html{scroll-behavior:smooth}
+.btn:hover{filter:brightness(0.92)}
+</style>
+</head>
+<body>
+<div style="font-family:'Figtree',system-ui,sans-serif;color:#3B2A1E;background:#FFFFFF;line-height:1.55">
+
+  <!-- NAV -->
+  <header style="border-bottom:1px solid #EAE3D8;background:#FFFFFF">
+    <div style="max-width:1160px;margin:0 auto;padding:16px 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+      <div style="display:flex;align-items:center;gap:10px">
+        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20C4 10 10 4 20 4c0 10-6 16-14 16z" fill="#3F6B2E"></path><path d="M5 19L14 10" stroke="#FFFFFF" stroke-width="1.6" fill="none" stroke-linecap="round"></path></svg>
+        <span style="font-family:'Literata',Georgia,serif;font-weight:600;font-size:26px;color:#3B2A1E">Basalphy</span>
+        <span style="font-size:15px;color:#6B5646;padding-left:2px">배살피</span>
+      </div>
+      <nav style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 24px">
+        <a href="#dream" style="color:#5A4333;font-size:15px;font-weight:500;text-decoration:none;min-height:44px;display:inline-flex;align-items:center">The idea</a>
+        <a href="#centre" style="color:#5A4333;font-size:15px;font-weight:500;text-decoration:none;min-height:44px;display:inline-flex;align-items:center">Clinicians first</a>
+        <a href="#how" style="color:#5A4333;font-size:15px;font-weight:500;text-decoration:none;min-height:44px;display:inline-flex;align-items:center">How it works</a>
+        <a href="#status" style="color:#5A4333;font-size:15px;font-weight:500;text-decoration:none;min-height:44px;display:inline-flex;align-items:center">Where we are</a>
+        <a class="btn" href="#join" style="background:#3F6B2E;color:#FFFFFF;font-size:15px;font-weight:600;text-decoration:none;min-height:44px;padding:0 22px;border-radius:999px;display:inline-flex;align-items:center">Help shape it</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section style="background:#FFFFFF">
+    <div style="max-width:1160px;margin:0 auto;padding:72px 24px 80px;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;gap:48px">
+      <div style="flex:1 1 440px;min-width:0">
+        <div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#3F6B2E">Hospital decision support</div>
+        <h1 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:clamp(36px,5.2vw,62px);line-height:1.1;margin:16px 0 0;color:#3B2A1E">Care for each patients as who they are.</h1>
+        <p style="font-size:20px;line-height:1.55;color:#5A4333;margin:24px 0 0;max-width:34em">Basalphy learns what is normal for each patient and shows nurses and doctors what has changed, so their attention goes where it is needed first.</p>
+        <p style="font-family:'Literata',Georgia,serif;font-style:italic;font-size:19px;color:#2F5233;margin:20px 0 0">Learns each patient's normal. Looks for what isn't.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:32px">
+          <a class="btn" href="#join" style="background:#3F6B2E;color:#FFFFFF;font-size:17px;font-weight:600;text-decoration:none;min-height:52px;padding:0 28px;border-radius:999px;display:inline-flex;align-items:center">Help shape it</a>
+          <a class="btn" href="#how" style="background:#FFFFFF;color:#5A3A22;font-size:17px;font-weight:600;text-decoration:none;min-height:52px;padding:0 28px;border-radius:999px;display:inline-flex;align-items:center;border:2px solid #C8A27C;box-sizing:border-box">See how it works</a>
+        </div>
+      </div>
+
+      <div style="flex:1 1 420px;min-width:0">
+        <div style="background:#F3F7EC;border:1px solid #DCE7CC;border-radius:24px;padding:24px;box-sizing:border-box">
+          <div style="font-size:14px;font-weight:600;color:#5A4333;margin-bottom:8px">One patient, one baseline: blood oxygen over 12 hours</div>
+          <svg viewBox="0 0 520 280" width="100%" role="img" aria-label="Illustrative chart of blood oxygen saturation over 12 hours. The line stays inside a green band marking this patient's usual range of 94 to 97 percent, then drifts below it and ends near 91 percent. A dashed fixed alarm limit at 90 percent is never crossed." style="display:block;height:auto">
+            <text x="56" y="14" font-family="Figtree, sans-serif" font-size="13" font-weight="600" fill="#5A4333">Blood oxygen saturation, SpO2 (%)</text>
+            <rect x="56" y="78" width="448" height="54" rx="8" fill="#DCE9CB"/>
+            <line x1="56" y1="24" x2="504" y2="24" stroke="#5A4333" stroke-opacity="0.18" stroke-width="1"/>
+            <line x1="56" y1="168" x2="504" y2="168" stroke="#5A4333" stroke-opacity="0.18" stroke-width="1"/>
+            <line x1="56" y1="240" x2="504" y2="240" stroke="#5A4333" stroke-opacity="0.35" stroke-width="1.5"/>
+            <text x="48" y="28" text-anchor="end" font-family="Figtree, sans-serif" font-size="13" fill="#5A4333">100</text>
+            <text x="48" y="100" text-anchor="end" font-family="Figtree, sans-serif" font-size="13" fill="#5A4333">96</text>
+            <text x="48" y="172" text-anchor="end" font-family="Figtree, sans-serif" font-size="13" fill="#5A4333">92</text>
+            <text x="48" y="244" text-anchor="end" font-family="Figtree, sans-serif" font-size="13" fill="#5A4333">88</text>
+            <text x="64" y="73" font-family="Figtree, sans-serif" font-size="13" font-weight="600" fill="#2F5233">This patient's usual range: 94 to 97%</text>
+            <line x1="56" y1="204" x2="504" y2="204" stroke="#8A5A36" stroke-width="2" stroke-dasharray="6 5"/>
+            <text x="504" y="224" text-anchor="end" font-family="Figtree, sans-serif" font-size="13" fill="#6B5646">Typical fixed alarm limit (example): 90%</text>
+            <path d="M56 103.2 L93.3 96 L130.7 110.4 L168 99.6 L205.3 114 L242.7 101.4 L280 112.2 L317.3 108.6 L354.7 124.8 L373.3 132" fill="none" stroke="#2F5233" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M373.3 132 L392 139.2 L429.3 153.6 L466.7 168 L504 182.4" fill="none" stroke="#8A4B24" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="373.3" cy="132" r="8" fill="#FFFFFF" stroke="#8A4B24" stroke-width="3.5"/>
+            <line x1="392" y1="72" x2="378" y2="124" stroke="#8A4B24" stroke-width="1.5"/>
+            <rect x="300" y="40" width="192" height="32" rx="16" fill="#8A4B24"/>
+            <text x="396" y="61" text-anchor="middle" font-family="Figtree, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Basalphy notices here</text>
+            <text x="56" y="262" font-family="Figtree, sans-serif" font-size="13" fill="#5A4333">12 h ago</text>
+            <text x="280" y="262" text-anchor="middle" font-family="Figtree, sans-serif" font-size="13" fill="#5A4333">6 h ago</text>
+            <text x="504" y="262" text-anchor="end" font-family="Figtree, sans-serif" font-size="13" fill="#5A4333">Now</text>
+          </svg>
+          <div style="font-size:14px;line-height:1.5;color:#6B5646;margin-top:8px">Illustration with synthetic data, not a clinical reference. Here the patient has been below their own usual range for about three hours while a fixed 90% alarm stays silent.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE IDEA -->
+  <section id="dream" style="background:#F4F8EE">
+    <div style="max-width:1160px;margin:0 auto;padding:80px 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:40px 64px">
+      <div style="flex:1 1 380px;min-width:0">
+        <div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#3F6B2E">The idea</div>
+        <h2 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:clamp(30px,3.8vw,44px);line-height:1.15;margin:16px 0 0;color:#3B2A1E">A ward where no one is treated as an average.</h2>
+      </div>
+      <div style="flex:1 1 440px;min-width:0">
+        <p style="font-size:19px;line-height:1.65;color:#4A3628;margin:0">Every patient arrives with their own normal: a usual heart rate, a usual way of breathing, a usual pace of recovery. A rule built for the average patient may miss the person who is quietly changing, and keep sounding for the person who is simply being themselves.</p>
+        <p style="font-size:19px;line-height:1.65;color:#4A3628;margin:20px 0 0">We want to help nurses and doctors with that individuality without reading every chart line by line, so the right person gets attention at the right moment, and each patient is treated as themselves.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLINICIANS AT THE CENTRE -->
+  <section id="centre" style="background:#FFFFFF">
+    <div style="max-width:1160px;margin:0 auto;padding:88px 24px;box-sizing:border-box">
+      <div style="max-width:42em">
+        <div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#3F6B2E">Clinicians first</div>
+        <h2 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:clamp(30px,3.8vw,44px);line-height:1.15;margin:16px 0 0;color:#3B2A1E">The nurse and the doctor are the centre of the system.</h2>
+        <p style="font-size:19px;line-height:1.6;color:#5A4333;margin:20px 0 0">Basalphy does not diagnose, decide or act. It notices and explains. You judge, because only you can truly see the <strong>person</strong> in front of you.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;align-items:stretch;gap:20px;margin-top:48px">
+        <div style="flex:1 1 240px;min-width:0;background:#FBF7F1;border:1px solid #E6DCCB;border-radius:24px;padding:32px;box-sizing:border-box">
+          <div style="font-size:14px;font-weight:700;color:#8A5A36;letter-spacing:0.08em;text-transform:uppercase">Basalphy</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:26px;line-height:1.2;margin:12px 0 0;color:#3B2A1E">Notices</h3>
+          <p style="font-size:17px;line-height:1.6;color:#4A3628;margin:14px 0 0">Learns each patient's usual and notify meaningful changes, with the evidence behind it.</p>
+        </div>
+        <div style="flex:1.4 1 300px;min-width:0;background:#2F5233;border-radius:24px;padding:36px;box-sizing:border-box">
+          <div style="font-size:14px;font-weight:700;color:#CFE3BC;letter-spacing:0.08em;text-transform:uppercase">The Core Driver</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:32px;line-height:1.15;margin:12px 0 0;color:#FFFFFF">Nurses and doctors' decision</h3>
+          <p style="font-size:18px;line-height:1.6;color:#F1F6EA;margin:14px 0 0">Weigh against what no system can record: the person, the context, their story. Whether to confirm, dismiss, or escalate it, your judgement matter.</p>
+        </div>
+        <div style="flex:1 1 240px;min-width:0;background:#FBF7F1;border:1px solid #E6DCCB;border-radius:24px;padding:32px;box-sizing:border-box">
+          <div style="font-size:14px;font-weight:700;color:#8A5A36;letter-spacing:0.08em;text-transform:uppercase">The patient</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:26px;line-height:1.2;margin:12px 0 0;color:#3B2A1E">Being treated as themselves</h3>
+          <p style="font-size:17px;line-height:1.6;color:#4A3628;margin:14px 0 0">Care is shaped around the individual's own baseline, not only the population average.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" style="background:#F8F2EA">
+    <div style="max-width:1160px;margin:0 auto;padding:88px 24px;box-sizing:border-box">
+      <div style="max-width:42em">
+        <div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#3F6B2E">How it works</div>
+        <h2 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:clamp(30px,3.8vw,44px);line-height:1.15;margin:16px 0 0;color:#3B2A1E">Three steps, designed around your judgement.</h2>
+        <p style="font-size:17px;line-height:1.6;color:#6B5646;margin:16px 0 0">This is what we are designing toward. The product is not built yet.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:20px;margin-top:44px">
+        <div style="flex:1 1 280px;min-width:0;background:#FFFFFF;border:1px solid #E6DCCB;border-radius:20px;padding:32px;box-sizing:border-box">
+          <div style="width:44px;height:44px;border-radius:999px;background:#3F6B2E;color:#FFFFFF;font-weight:700;font-size:18px;display:flex;align-items:center;justify-content:center">1</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:24px;line-height:1.2;margin:20px 0 0;color:#3B2A1E">Learn the baseline</h3>
+          <p style="font-size:17px;line-height:1.6;color:#4A3628;margin:12px 0 0">From each patient's own records and monitoring data, Basalphy builds a picture of what normal looks like for that person.</p>
+        </div>
+        <div style="flex:1 1 280px;min-width:0;background:#FFFFFF;border:1px solid #E6DCCB;border-radius:20px;padding:32px;box-sizing:border-box">
+          <div style="width:44px;height:44px;border-radius:999px;background:#3F6B2E;color:#FFFFFF;font-weight:700;font-size:18px;display:flex;align-items:center;justify-content:center">2</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:24px;line-height:1.2;margin:20px 0 0;color:#3B2A1E">Notice what changed</h3>
+          <p style="font-size:17px;line-height:1.6;color:#4A3628;margin:12px 0 0">When something moves outside that person's usual pattern, it is surfaced: what changed, by how much, and over how long.</p>
+        </div>
+        <div style="flex:1 1 280px;min-width:0;background:#FFFFFF;border:1px solid #E6DCCB;border-radius:20px;padding:32px;box-sizing:border-box">
+          <div style="width:44px;height:44px;border-radius:999px;background:#3F6B2E;color:#FFFFFF;font-weight:700;font-size:18px;display:flex;align-items:center;justify-content:center">3</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:24px;line-height:1.2;margin:20px 0 0;color:#3B2A1E">Explain, then hand over</h3>
+          <p style="font-size:17px;line-height:1.6;color:#4A3628;margin:12px 0 0">Every flag comes with its reasons and its uncertainty. A clinician confirms or dismisses it, and that feedback is meant to cut the noise over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES -->
+  <section style="background:#FFFFFF">
+    <div style="max-width:1160px;margin:0 auto;padding:88px 24px;box-sizing:border-box">
+      <div style="max-width:42em">
+        <div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#3F6B2E">Our principles</div>
+        <h2 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:clamp(30px,3.8vw,44px);line-height:1.15;margin:16px 0 0;color:#3B2A1E">Built to earn a clinician's trust.</h2>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:20px;margin-top:44px">
+        <div style="flex:1 1 440px;min-width:0;background:#F4F8EE;border-radius:20px;padding:32px;box-sizing:border-box">
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:22px;line-height:1.25;margin:0;color:#2F5233">Support, never replace</h3>
+          <p style="font-size:17px;line-height:1.6;color:#4A3628;margin:12px 0 0">Basalphy is decision support. A person makes every clinical decision.</p>
+        </div>
+        <div style="flex:1 1 440px;min-width:0;background:#F4F8EE;border-radius:20px;padding:32px;box-sizing:border-box">
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:22px;line-height:1.25;margin:0;color:#2F5233">Every alert explains itself</h3>
+          <p style="font-size:17px;line-height:1.6;color:#4A3628;margin:12px 0 0">A flag you cannot question is a flag you cannot trust. We show the evidence behind each one.</p>
+        </div>
+        <div style="flex:1 1 440px;min-width:0;background:#F4F8EE;border-radius:20px;padding:32px;box-sizing:border-box">
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:22px;line-height:1.25;margin:0;color:#2F5233">Fewer, better alerts</h3>
+          <p style="font-size:17px;line-height:1.6;color:#4A3628;margin:12px 0 0">An ignored alert helps no one, and a false alarm can pull attention from another bed. We design for alert quality before alert quantity.</p>
+        </div>
+        <div style="flex:1 1 440px;min-width:0;background:#F4F8EE;border-radius:20px;padding:32px;box-sizing:border-box">
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:22px;line-height:1.25;margin:0;color:#2F5233">Honest about uncertainty</h3>
+          <p style="font-size:17px;line-height:1.6;color:#4A3628;margin:12px 0 0">Basalphy shows how confident it is, and says so plainly when it does not know.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHERE WE ARE -->
+  <section id="status" style="background:#F8F2EA">
+    <div style="max-width:1160px;margin:0 auto;padding:88px 24px;box-sizing:border-box">
+      <div style="max-width:42em">
+        <div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#3F6B2E">Where we are</div>
+        <h2 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:clamp(30px,3.8vw,44px);line-height:1.15;margin:16px 0 0;color:#3B2A1E">At the start, listening.</h2>
+        <p style="font-size:19px;line-height:1.6;color:#5A4333;margin:20px 0 0">Basalphy is a concept. We have not built the product, it is not a medical device, and it is not yet for clinical use. We would rather build it with the people who will use it.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:20px;margin-top:44px">
+        <div style="flex:1 1 240px;min-width:0;background:#2F5233;border-radius:20px;padding:28px;box-sizing:border-box">
+          <div style="font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#CFE3BC">Now</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:22px;line-height:1.25;margin:10px 0 0;color:#FFFFFF">Listen</h3>
+          <p style="font-size:16px;line-height:1.6;color:#F1F6EA;margin:10px 0 0">Talk with nurses and doctors about which changes in a patient they would want noticed sooner.</p>
+        </div>
+        <div style="flex:1 1 240px;min-width:0;background:#FFFFFF;border:1px solid #E6DCCB;border-radius:20px;padding:28px;box-sizing:border-box">
+          <div style="font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#8A5A36">Next</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:22px;line-height:1.25;margin:10px 0 0;color:#3B2A1E">Test on past data</h3>
+          <p style="font-size:16px;line-height:1.6;color:#4A3628;margin:10px 0 0">Check the approach on de-identified historical records before it touches a live ward.</p>
+        </div>
+        <div style="flex:1 1 240px;min-width:0;background:#FFFFFF;border:1px solid #E6DCCB;border-radius:20px;padding:28px;box-sizing:border-box">
+          <div style="font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#8A5A36">Then</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:22px;line-height:1.25;margin:10px 0 0;color:#3B2A1E">Supervised pilot</h3>
+          <p style="font-size:16px;line-height:1.6;color:#4A3628;margin:10px 0 0">One ward, clinicians in control, and regulatory review before any clinical use.</p>
+        </div>
+        <div style="flex:1 1 240px;min-width:0;background:#FFFFFF;border:1px solid #E6DCCB;border-radius:20px;padding:28px;box-sizing:border-box">
+          <div style="font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#8A5A36">Later</div>
+          <h3 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:22px;line-height:1.25;margin:10px 0 0;color:#3B2A1E">Beyond one hospital</h3>
+          <p style="font-size:16px;line-height:1.6;color:#4A3628;margin:10px 0 0">Work across different hospital record systems without rebuilding for each one. Our wish is to be the brigde between the current hospital system, future technology improvement, and medical professionals as the center.</p>
+        </div>
+      </div>
+
+      <p style="font-size:16px;line-height:1.6;color:#6B5646;margin:32px 0 0;max-width:46em">Research foundation: this builds on published work on schema-agnostic models of electronic health records, such as GenHPF (Hur et al., 2022).</p>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section id="join" style="background:#2F5233">
+    <div style="max-width:1160px;margin:0 auto;padding:88px 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;gap:32px 64px">
+      <div style="flex:1 1 440px;min-width:0">
+        <h2 style="font-family:'Literata',Georgia,serif;font-weight:500;font-size:clamp(30px,3.8vw,44px);line-height:1.15;margin:0;color:#FFFFFF">Work in a hospital? Tell us what you wish you could see sooner.</h2>
+        <p style="font-size:19px;line-height:1.6;color:#F1F6EA;margin:20px 0 0">We are looking for nurses and doctors willing to share, in one short conversation, their opinion on the concept and what changes they would love to see. There is nothing to buy and nothing to install.</p>
+      </div>
+      <div style="flex:1 1 320px;min-width:0">
+        <a class="btn" href="mailto:azzikri_17@kaist.ac.kr?subject=Basalphy%20conversation" style="background:#FFFFFF;color:#2F5233;font-size:18px;font-weight:700;text-decoration:none;min-height:56px;padding:0 32px;border-radius:999px;display:inline-flex;align-items:center">Start a conversation</a>
+        <p style="font-size:16px;line-height:1.6;color:#E3EED5;margin:18px 0 0">Or write to <strong>azzikri_17@kaist.ac.kr</strong> . Researchers and engineers are welcome too.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background:#FFFFFF;border-top:1px solid #EAE3D8">
+    <div style="max-width:1160px;margin:0 auto;padding:36px 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:20px">
+      <div style="display:flex;align-items:center;gap:10px">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20C4 10 10 4 20 4c0 10-6 16-14 16z" fill="#3F6B2E"></path><path d="M5 19L14 10" stroke="#FFFFFF" stroke-width="1.6" fill="none" stroke-linecap="round"></path></svg>
+        <span style="font-family:'Literata',Georgia,serif;font-weight:600;font-size:20px;color:#3B2A1E">Basalphy</span>
+        <span style="font-size:15px;color:#6B5646">배살피 · Hospital decision support</span>
+      </div>
+      <p style="font-size:14px;line-height:1.6;color:#6B5646;margin:0;max-width:34em">Basalphy is a concept-stage project. It is not a medical device and must not be used to make clinical decisions.</p>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
